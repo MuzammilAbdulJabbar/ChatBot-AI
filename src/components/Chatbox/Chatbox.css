@@ -1,0 +1,55 @@
+.Chatbox {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 19rem;
+    right: 19rem;
+    top: 5rem;
+    bottom: 56px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+@media (max-width:800px){
+    .Chatbox{
+        left:1.5rem;
+    }
+}
+.InputChatHolder {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.Input{
+    position: relative;
+    color: gray;
+    font-size: 1.3em;
+    background-color: #FFFFFF;
+    border: none;
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+}
+.message-list {
+    right: 0;
+    box-sizing: border-box;
+    animation: revealup .5s 0s cubic-bezier(0,.57,.81,1.01) forwards;
+     padding: 8px 15px;
+    color: #fff;
+        display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    
+}
+.Message {
+    width: fit-content;
+    background: rgb(25, 101, 182);
+    line-height: 1.4;
+    padding: 10px 20px;
+    border-radius: 20px 20px 3px 20px;
+    margin: 20px 0;
+  }

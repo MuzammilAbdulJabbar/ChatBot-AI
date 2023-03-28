@@ -1,0 +1,19 @@
+.Footer {
+    height: 4rem;
+    position: fixed;
+    left: 280px;
+    bottom: 0;
+    right: 1.5rem;
+    background-color:#EFF3F8 ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    font-family: sans-serif;
+}
+@media (max-width:800px){
+    .Footer{
+        display: none;
+    }
+}
